@@ -166,6 +166,7 @@ function App() {
 
         <input
           type="file"
+          accept=".pdf,.docx"
           className="input"
           onChange={(e) => setFile(e.target.files[0])}
         />
